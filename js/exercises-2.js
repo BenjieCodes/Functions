@@ -36,7 +36,9 @@ else if (y > z && y > x) {
 // ---------------------
 
 function isVowel(char){
-  if (char = "a", "e", "i", "o", "u") {
+
+  var char = ["a", "e", "i", "o", "u"]
+  if (char) {
     var vowel = "true";
     return vowel;
   }
